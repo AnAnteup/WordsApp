@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <TextView android:background="@drawable/line"/>
+
+        <TextView
+            android:text="单词"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:id="@+id/txtWord" />
+
+
+        <TextView
+            android:text="含义"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:id="@+id/txtMeaning" />
+
+
+
+        <TextView
+            android:text="示例"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:id="@+id/txtSample" />
+
+
+</TableLayout>
